@@ -5,6 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "channels-redis>=4.2.0",
+    "channels>=4.1.0",
+    "django-allauth>=65.1.0",
     "django>=5.1.2",
     "pandas>=2.2.3",
+    "redis>=5.2.0",
 ]
